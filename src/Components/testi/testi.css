@@ -1,0 +1,27 @@
+#testi{
+    text-align: center;
+    padding: 2rem;
+}
+.testi_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.testi img{
+    border-radius: 50%;
+    width: 4rem;
+    border: 5px solid var(--color-primary);
+}
+.testi{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    border: 1px solid ;
+    gap: 1rem;
+    padding: 1rem;
+    margin: 1rem 0;
+    width: 50rem;
+    border-radius: 2rem;
+    background: var(--color-bg-variant);
+}

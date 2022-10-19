@@ -1,0 +1,27 @@
+#footer{
+    height: 50vh;
+    text-align: center;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    padding: 3rem 0;
+}
+#footer h2{
+    margin-bottom: 2rem;
+}
+.footer_nav{
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+}
+.footer_nav a{
+    list-style: none;
+    text-decoration: none;
+    font-size: 1.2rem;
+}
+.social{
+    margin: 2rem;
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    font-size: 2rem;
+}
